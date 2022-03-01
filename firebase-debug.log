@@ -1,0 +1,98 @@
+[debug] [2022-03-01T10:48:03.989Z] ----------------------------------------------------------------------
+[debug] [2022-03-01T10:48:03.989Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-03-01T10:48:03.990Z] CLI Version:   10.2.1
+[debug] [2022-03-01T10:48:03.990Z] Platform:      darwin
+[debug] [2022-03-01T10:48:03.990Z] Node Version:  v16.13.1
+[debug] [2022-03-01T10:48:03.990Z] Time:          Tue Mar 01 2022 02:48:03 GMT-0800 (Pacific Standard Time)
+[debug] [2022-03-01T10:48:03.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-01T10:48:03.993Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-01T10:48:03.994Z] > authorizing via signed-in user (crystalbadubusiness@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/crystalbadu/cc-v1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-03-01T10:48:24.928Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-03-01T10:48:24.928Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-01T10:48:25.147Z] <<< HTTP RESPONSE 200 {"date":"Tue, 01 Mar 2022 10:48:25 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:25.195Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"cc-demo-web","name":"cc-demo-webapp"}
+[debug] [2022-03-01T10:48:25.756Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 01 Mar 2022 10:48:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=409","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:25.762Z] > refreshing access token with scopes: []
+[debug] [2022-03-01T10:48:25.762Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-01T10:48:25.904Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 01 Mar 2022 10:48:25 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:25.953Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 [none]
+[debug] [2022-03-01T10:48:26.586Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 200
+[debug] [2022-03-01T10:48:26.586Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 {"name":"operations/cp.5852145061604449379"}
+[debug] [2022-03-01T10:48:27.088Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:27.089Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 [none]
+[debug] [2022-03-01T10:48:27.708Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 200
+[debug] [2022-03-01T10:48:27.709Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 {"name":"operations/cp.5852145061604449379"}
+[debug] [2022-03-01T10:48:28.709Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:28.711Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 [none]
+[debug] [2022-03-01T10:48:29.348Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 200
+[debug] [2022-03-01T10:48:29.348Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5852145061604449379 {"name":"operations/cp.5852145061604449379","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"852795940492","projectId":"cc-demo-web","lifecycleState":"ACTIVE","name":"cc-demo-webapp","createTime":"2022-03-01T10:48:25.624Z"}}
+[debug] [2022-03-01T10:48:29.350Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-03-01T10:48:29.351Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-01T10:48:29.505Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 01 Mar 2022 10:48:29 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:29.552Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/cc-demo-web:addFirebase  
+ 
+[debug] [2022-03-01T10:48:31.185Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 01 Mar 2022 10:48:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:31.186Z] > refreshing access token with scopes: []
+[debug] [2022-03-01T10:48:31.186Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-01T10:48:31.335Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 01 Mar 2022 10:48:31 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-01T10:48:31.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 [none]
+[debug] [2022-03-01T10:48:31.906Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 200
+[debug] [2022-03-01T10:48:31.906Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 {"name":"operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4"}
+[debug] [2022-03-01T10:48:32.407Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:32.409Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 [none]
+[debug] [2022-03-01T10:48:32.782Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 200
+[debug] [2022-03-01T10:48:32.782Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 {"name":"operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4"}
+[debug] [2022-03-01T10:48:33.784Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:33.785Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 [none]
+[debug] [2022-03-01T10:48:34.257Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 200
+[debug] [2022-03-01T10:48:34.258Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 {"name":"operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4"}
+[debug] [2022-03-01T10:48:36.259Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:36.260Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 [none]
+[debug] [2022-03-01T10:48:36.613Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 200
+[debug] [2022-03-01T10:48:36.613Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 {"name":"operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4"}
+[debug] [2022-03-01T10:48:40.613Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-03-01T10:48:40.614Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 [none]
+[debug] [2022-03-01T10:48:41.126Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 200
+[debug] [2022-03-01T10:48:41.126Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4 {"name":"operations/workflows/MGViYTUzOGQtNWQwMy00MDE0LTlkMzAtOTMxM2FmYzQzMGM4","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"cc-demo-web","projectNumber":"852795940492","displayName":"cc-demo-webapp","name":"projects/cc-demo-web","resources":{"hostingSite":"cc-demo-web"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: cc-demo-web
+[info]    - Project Name: cc-demo-webapp
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/cc-demo-web/overview
+[info] i  Using project cc-demo-web (cc-demo-webapp) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

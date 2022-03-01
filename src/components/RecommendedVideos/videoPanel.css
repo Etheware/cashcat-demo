@@ -1,0 +1,28 @@
+.video__panel {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex: 0.7;    
+    padding-left:20%;  
+    background-color: whitesmoke;
+}
+
+.video__panel > h2 {
+    color: black;
+}
+
+.video__panel > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video__panelVideos {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
+    row-gap: 0.5rem;
+    column-gap: 1.2rem;
+    row-gap: 3.5rem;
+}

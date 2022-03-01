@@ -1,0 +1,8 @@
+.body {
+    background-color: #7fd6ff;
+    background-image: url("https://i.ibb.co/x3Wm074/Preview-Image.jpg" );
+    flex: 1;
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+}

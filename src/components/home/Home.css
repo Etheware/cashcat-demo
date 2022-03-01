@@ -1,0 +1,41 @@
+.home__container {
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    
+}
+
+.streams {
+    background-color: rgb(88, 88, 88);
+    flex-direction: row;
+    height: 30%;
+    justify-content: center;
+    column-gap: 8.5rem;
+    z-index: 100;  
+    position: fixed;
+}
+
+.streams > svg {
+  width: 100%;
+}
+
+.streams > div :hover {
+  transform: scale(1.02);
+  border: 1px solid aqua;
+}
+
+
+/* @media (min-width: 768px) {
+    .streams {
+        grid-template-columns: 1fr 1fr;
+        display: none;
+      }
+    } */
+
+/* 
+  @media (min-width: 1366px) {
+    .streams {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+ */

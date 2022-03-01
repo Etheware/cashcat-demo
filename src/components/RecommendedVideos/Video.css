@@ -1,0 +1,34 @@
+.video {
+    margin-bottom: 40px;
+    width: 32%;
+}
+
+.wrapper {
+    position: relative;
+    padding-top: 50.25%; /* Player ratio: 100 / (1280 / 720) */
+    object-fit: contain;
+ }
+  
+.player {
+    position: absolute;
+    top: 0;
+}
+
+.videoCard__text {
+    padding-left: 3%;
+}
+
+.videoCard__text > h4 {
+    color: black;
+    padding-bottom: 3%;
+}
+
+.videoCard__text > p {
+    color: rgb(104, 100, 100);
+}
+
+.videoCard__info {
+    display: flex;
+    margin-top: 4%;
+    padding-right: 30px;
+}
